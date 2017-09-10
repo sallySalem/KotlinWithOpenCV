@@ -48,6 +48,6 @@ set(CMAKE_VERBOSE_MAKEFILE on)
 add_library(lib_opencv SHARED IMPORTED)
 set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION /Users/sally/Desktop/Done/KotlinWithOpenCV/openCVLibrary330/src/main/jniLibs/${ANDROID_ABI}/libopencv_java3.so)
 
-include_directories(/OpenCV-android-sdk/sdk/native/jni/include)
+include_directories(/Users/sally/Downloads/OpenCV-android-sdk-2/sdk/native/jni/include)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
