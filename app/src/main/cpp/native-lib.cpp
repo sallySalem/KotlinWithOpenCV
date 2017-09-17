@@ -16,5 +16,6 @@ Java_com_sally_kotlinwithopencv_MainActivity_stringFromJNI(
     Mat& mGr = *(Mat*) s;
     Mat & mRgb = *(Mat*) d;
 
+
     cvtColor(mGr, mRgb, CV_GRAY2RGBA, 4);
 }
